@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    padding: 50px;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+   
+.begin{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+   
+    
+    
+}
+.begin1{
+    color: #A5A5A5;
+    padding: 30px;
+    text-decoration: none;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+
+
+}
+.begin2{
+    color: #A5A5A5;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+   
+
+}
+#thebeginning{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: auto;
+}
+
+.custom{
+    line-height: 2px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    color: #1C1C1C;
+    padding: 100px;
+    grid-gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid gray;
+    border-spacing: 20px;
+    margin-left: 200px;
+    width:110%;
+    border-collapse: separate;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Insta{
+    line-height: 2px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+   
+}
+    
+    
+
+.pictures{
+    display: grid;
+    grid-template-rows: 40vh 40vh 40px;
+    grid-template-columns: 45vw 20vw 20vw;
+    grid-gap: 30px;
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+
+}
+.first{
+    grid-row: 1/span 2;
+    grid-column:1/span 1;
+   
+}
+
+.second{
+    grid-row: 1/span 1;
+    grid-column: 2/span 1;
+ 
+    
+}
+.third{
+    grid-row: 1/span 1;
+    grid-column: 3/span 1;
+   
+    
+}
+.fourth{
+    grid-row: 2/span 1;
+    grid-column: 2/span 1;
+ 
+    
+}
+.fifth{
+    grid-row: 2/span 1;
+    grid-column: 3/span 1;
+   
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #999999;
+    margin:70px;
+    font-size: 50px;
+    padding: 30px;
+    grid-gap: 70px;
+    
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    width: 40%;
+    font-size: 16px;
+    color: black;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+
+}
+.facebook{
+    color: black;
+
+}
